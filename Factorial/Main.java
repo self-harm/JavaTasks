@@ -17,27 +17,22 @@ public class Main {
             int input = Integer.parseInt(reader.readLine()); //read from the keyboard;
             reader.close();  //close the stream;
             System.out.println(factorial(input));
-
         }
 
         public static String factorial(int n){  // method 'find a factorial';
-
-            ArrayList<Integer> list = new ArrayList<Integer>();
+            ArrayList<Integer> list = new ArrayList<Integer>(); //create new arraylist;
             BigInteger fact = BigInteger.valueOf(1);
 
             for(int i = 1; i <= n; i++){
                 fact= fact.multiply(BigInteger.valueOf(i));
             }
-
             if(n == 0){
                 fact = BigInteger.valueOf(1);
             }
             else if(n < 0){
                 fact = BigInteger.valueOf(0);
             }
-
-            String str1 = fact.toString();
-
+            String str1 = fact.toString(); //transform BigInteger to String and return it; 
             return str1;
         }
     }
