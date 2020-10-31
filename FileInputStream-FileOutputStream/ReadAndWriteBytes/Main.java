@@ -12,8 +12,8 @@ public class Main {
                     FileOutputStream outputStream1 = new FileOutputStream(fileSecond);
                     FileOutputStream outputStream2 = new FileOutputStream(fileThird);)
                 {
-                    int halfOfTheFIle = (inputStream.available() + 1)/2;
-                    int count = 0;
+                    int halfOfTheFIle = (inputStream.available() + 1)/2; //if inputStream contains 101(odd number) bytes: 101/2=50;
+                    int count = 0;                                       //(inputStream+1): 102/2=51;
 
                     while (inputStream.available()>0){  //while fileFirst has unread bytes;
                         if(inputStream.available()==0){ //close the streams if fileFirst doesn't have unread bytes;
@@ -33,4 +33,3 @@ public class Main {
                 }
     }
 }
-
