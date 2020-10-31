@@ -19,9 +19,10 @@ public class Main {
             list.add(data);
         }
         inputStream.close();
-
+        
         Map<Integer,Integer> map = new HashMap<>();  //add to the map keys(a) and count equal values;
         int count = 1;
+        
         for(int a: list){
             if(map.containsKey(a)){
                 int x = map.get(a) + 1;
@@ -31,7 +32,6 @@ public class Main {
                 map.put(a, count);
             }
         }
-
         int maxCount = 0; //find the byte which is the most popular/ищем масксильное повторяющийся ключ(макс value и его значение по a-ключу)
         for(Map.Entry<Integer,Integer> mya: map.entrySet()){
             int value =mya.getValue();
@@ -39,13 +39,13 @@ public class Main {
             if(value > maxCount)
                 maxCount = value;
         }
-
         for(Map.Entry<Integer,Integer> mya:map.entrySet()){
             int key = mya.getKey();
             int value = mya.getValue();
             if(value == maxCount)
-                System.out.print(key + " ");
+            System.out.print(key + " ");
         }
     }
 }
+
 
