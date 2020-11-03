@@ -1,0 +1,57 @@
+Подмменяем объект System.out - в итоге вывод у нас осуществляется в файл, а не в консоль:
+
+// сохраняем System.out в свою переменную out
+PrintStream out = System.out;
+
+// добавляем stream к файлу
+PrintStream ps = new PrintStream("file.txt");
+
+// переопределяем System.out, для записи в наш файл вместо консоли
+System.setOut(ps);
+
+// эта строка добавится в файл
+System.out.println("New text to our file.txt");
+
+// переопределяем System.out обратно
+System.setOut(out);
+
+// эта строка уже выведится в консоле, как обычно
+System.out.println("Output back to console");
+
+
+
+
+//Reverse the line:
+
+public static void main(String[] args) throws Exception
+{
+ PrintStream consoleStream = System.out;  //запоминаем настоящий PrintStream в специальную переменную
+
+ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();   //Создаем динамический массив
+ PrintStream stream = new PrintStream(outputStream);  //создаем адаптер к классу PrintStream
+ System.setOut(stream);   //Устанавливаем его как текущий System.out
+
+
+ printSomething();   //Вызываем функцию, которая ничего не знает о наших манипуляциях
+
+
+ String result = outputStream.toString();   //Преобразовываем записанные в наш ByteArray данные в строку
+
+
+ System.setOut(consoleStream);  //Возвращаем все как было
+
+ StringBuilder stringBuilder = new StringBuilder(result);  //разворачиваем строку
+ stringBuilder.reverse();
+ String reverseString = stringBuilder.toString();
+
+
+System.out.println(reverseString);  //выводим ее в консоль
+}
+
+public static void printSomething()
+{
+ System.out.println("Hi");
+ System.out.println("My name is Amigo");
+ System.out.println("Bye-bye!");
+}
+© 2020 GitHub, Inc.
