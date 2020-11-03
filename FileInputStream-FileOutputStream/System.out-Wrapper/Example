@@ -54,4 +54,3 @@ public static void printSomething()
  System.out.println("My name is Amigo");
  System.out.println("Bye-bye!");
 }
-© 2020 GitHub, Inc.
