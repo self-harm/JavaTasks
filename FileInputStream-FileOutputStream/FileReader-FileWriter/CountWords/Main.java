@@ -20,8 +20,8 @@ public class Main{
         try(FileReader fileReader = new FileReader(s)){
             char currentChar;
             while(fileReader.ready()) {
-                currentChar = (char) fileReader.read();
-                text.append(currentChar);
+                currentChar = (char) fileReader.read(); //doesn't expand to int because of the (char);
+                text.append(currentChar); 
             }
         }
 
