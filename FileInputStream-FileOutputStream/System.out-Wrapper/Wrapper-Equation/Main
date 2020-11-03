@@ -1,0 +1,48 @@
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
+/* 
+Решаем пример
+*/
+
+public class Solution {
+    public static TestString testString = new TestString();
+
+    public static void main(String[] args) {
+        PrintStream out = System.out;
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        PrintStream stream = new PrintStream(outputStream);
+        System.setOut(stream);
+
+        testString.printSomething();
+
+        String result = outputStream.toString().trim();
+        String[] str = result.split(" ");
+        int c;
+        switch (str[1]) {
+            case "+":
+                c = Integer.parseInt(str[0]) + Integer.parseInt(str[2]);
+                break;
+            case "-":
+                c = Integer.parseInt(str[0]) - Integer.parseInt(str[2]);
+                break;
+            case "*":
+                c = Integer.parseInt(str[0]) * Integer.parseInt(str[2]);
+                break;
+            default:
+                c = -1;
+                break;
+        }
+
+        System.setOut(out);
+
+        System.out.println(result + " " + c);
+    }
+
+    public static class TestString {
+        public void printSomething() {
+            System.out.println("3 + 6 = ");
+        }
+    }
+}
