@@ -25,11 +25,9 @@ public class Main {
         fileOutputStream.write(outputStream.toByteArray());
         fileOutputStream.close();
 
-        String result = outputStream.toString();
-
         System.setOut(out);
 
-        System.out.println(result);
+        System.out.println(outputStream.toString());
 
     }
 
