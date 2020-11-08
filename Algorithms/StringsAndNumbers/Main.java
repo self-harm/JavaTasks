@@ -3,10 +3,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.*;
 /* 
-Задача по алгоритмам Ӏ Java Syntax: 9 уровень, 11 лекция
+Задача по алгоритмам
 */
 
-public class Solution {
+public class Main{
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<String> list = new ArrayList<>();
