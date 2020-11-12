@@ -1,0 +1,6 @@
+Метод getPartOfString должен возвращать подстроку между первой и второй табуляцией.
+На некорректные данные бросить исключение TooShortStringException.
+Класс TooShortStringException не менять.
+
+Требования:
+•	Класс TooShortStringException должен быть потомком класса Exception.
