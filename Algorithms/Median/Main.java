@@ -4,7 +4,7 @@ import java.util.Arrays;
 Почитать в инете про медиану выборки
 */
 
-public class Solution{
+public class Main{
 
     public static void main(String[] args) {
     }
