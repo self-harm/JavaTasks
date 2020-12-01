@@ -2,7 +2,7 @@
 Switch для нитей
 */
 
-public class Solution {
+public class Main {
     public static void processThreads(Thread... threads) {
         for(Thread thread: threads) {
             switch (thread.getState()) {
