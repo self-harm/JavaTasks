@@ -12,7 +12,7 @@ public class Solution {
         //31:10:13 15:59:59
     }
 
-    public static String getFormattedString() {  //05:04:18 09:09:09 (число:месяц:год часы:минуты:секунды)
+    public static String getFormattedString() { //05:04:18 09:09:09 (число:месяц:год часы:минуты:секунды)
         return "%td:%tm:%ty %tH:%tM:%tS";
     }
 }
