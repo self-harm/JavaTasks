@@ -14,10 +14,12 @@ import java.util.List;
 
 public class Solution {
 
-    public static byte[] readBytes(String fileName) throws IOException {
+     public static byte[] readBytes(String fileName) throws IOException {
         Path path = Paths.get(fileName);// create path
 
-        return Files.readAllBytes(path);
+        return Files.readAllBytes(path); /*byte[] fileArray = Files.readAllBytes(path);
+                                           return fileArray;
+                                           */
     }
 
     public static List<String> readLines(String fileName) throws IOException {
