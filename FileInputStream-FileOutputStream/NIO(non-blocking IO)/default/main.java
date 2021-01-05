@@ -35,7 +35,7 @@ public class main {
     }
 
     public static void copy(String resourceFileName, String destinationFileName) throws IOException {
-        /*Path pathFrom = Paths.get(resourceFileName);откуда копируем
+        /*Path pathFrom = Paths.get(resourceFileName); откуда копируем
         Path pathTo = Paths.get(destinationFileName); куда копируем
 
         Files.copy(pathFrom, pathTo);*/
