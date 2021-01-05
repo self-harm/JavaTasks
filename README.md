@@ -1,3 +1,7 @@
+# Various litter of innumerable exercises/tasks
+
+
+
 My practice and leraning of Java language. This repository is mainly for myself. Nothing special.. 
 
 Actually this repository is a total __mess__ 🤯. Even I don't understand what's happening here..
