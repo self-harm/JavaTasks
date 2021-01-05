@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 Загрузчик файлов
 */
 
-public class Solution {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         Path passwords = downloadFile("https://javarush.ru/testdata/secretPasswords.txt", Paths.get("D:/MyDownloads"));
