@@ -13,4 +13,4 @@
 2. Метод readBytes должен возвращать все байты файла fileName.
 3. Метод readLines должен возвращать все строки файла fileName с кодировкой по умолчанию.
 4. Метод writeBytes должен записывать массив bytes в файл fileName.
-5. Метод copy до
+5. Метод copy должен копировать файл resourceFileName на место destinationFileName.
