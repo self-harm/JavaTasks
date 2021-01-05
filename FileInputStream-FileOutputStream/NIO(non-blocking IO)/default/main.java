@@ -11,7 +11,7 @@ import java.util.List;
 Своя реализация
 */
 
-public class Solution {
+public class main {
 
     public static byte[] readBytes(String fileName) throws IOException {
         Path path = Paths.get(fileName);// create path
