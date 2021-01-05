@@ -1,6 +1,5 @@
 package com.javarush.task.task31.task3103;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -14,7 +13,7 @@ import java.util.List;
 
 public class Solution {
 
-     public static byte[] readBytes(String fileName) throws IOException {
+    public static byte[] readBytes(String fileName) throws IOException {
         Path path = Paths.get(fileName);// create path
 
         return Files.readAllBytes(path); /*byte[] fileArray = Files.readAllBytes(path);
@@ -23,13 +22,22 @@ public class Solution {
     }
 
     public static List<String> readLines(String fileName) throws IOException {
-        return null;
+       /* Path path = Paths.get(fileName); create path
+        List<String> list;
+        list = Files.readAllLines(path);
+        return list;*/
+
+        return Files.readAllLines(Paths.get(fileName));
     }
 
     public static void writeBytes(String fileName, byte[] bytes) throws IOException {
+        Files.write(Paths.get(fileName), bytes);
     }
 
     public static void copy(String resourceFileName, String destinationFileName) throws IOException {
+        Path pathFrom = Paths.get(resourceFileName); //откуда копируем
+        Path pathTo = Paths.get(destinationFileName); //куда копируем
 
+        Files.copy(pathFrom, pathTo);
     }
 }
