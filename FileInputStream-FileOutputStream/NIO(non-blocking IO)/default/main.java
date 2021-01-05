@@ -35,9 +35,11 @@ public class main {
     }
 
     public static void copy(String resourceFileName, String destinationFileName) throws IOException {
-        Path pathFrom = Paths.get(resourceFileName); //откуда копируем
-        Path pathTo = Paths.get(destinationFileName); //куда копируем
+        /*Path pathFrom = Paths.get(resourceFileName);откуда копируем
+        Path pathTo = Paths.get(destinationFileName); куда копируем
 
-        Files.copy(pathFrom, pathTo);
+        Files.copy(pathFrom, pathTo);*/
+
+        Files.copy(Paths.get(resourceFileName), Paths.get(destinationFileName));
     }
 }
