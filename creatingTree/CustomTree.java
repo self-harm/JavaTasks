@@ -167,38 +167,6 @@ public class CustomTree extends AbstractList<String> implements Cloneable, Seria
         }
     }
 
- /*   *//*создадим вспомогательный класс Node*//*
-    class Node {
-        int value;
-        Node left;
-        Node right;
-
-        public Node(int value) {
-            this.value = value;
-            left = null;
-            right = null;
-        }
-
-        *//*создаем рекурсивный метод для вставки*//*
-        private Node addRecursive(Node current, int value){
-            if(current == null){
-                return new Node(value);
-            }
-
-            if(value < current.value){
-                current.left = addRecursive(current.left, value);
-            }
-            else if(value > current.value){
-                current.right = addRecursive(current.right, value);
-            }
-            else{
-                *//*value already exists*//*
-                return current;
-            }
-            return current;
-        }
-    }*/
-
     /*тк мы создаем дерево, то нам недоступны стандартные и привычные методы List'ов
     * таким образом переопределяем некоторые методы ниже*/
     @Override
