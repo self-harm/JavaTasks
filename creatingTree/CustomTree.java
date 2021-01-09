@@ -1,10 +1,6 @@
 import java.io.Serializable;
 import java.util.*;
 
-/* 
-Построй дерево(1)
-*/
-
 public class CustomTree extends AbstractList<String> implements Cloneable, Serializable{
     /*Стартовый корень для дерева*/
     Entry<String> root;
