@@ -19,6 +19,7 @@ public class Plumber
 
 // Adapter
 public class ChiefAdapter extends Plumber implements Chief
+/*мы вкладываем в методы интерфейса методы класса(адаптера)*/
 {
   public Object makeBreakfast()
   {
