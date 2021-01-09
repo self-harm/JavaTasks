@@ -1,5 +1,4 @@
 // Файл Chief.java
-
 public interface Chief {
 
 	public Object makeBreakfast();
@@ -9,7 +8,6 @@ public interface Chief {
 }
 
 // Файл Plumber.java
-
 public class Plumber {
 
 	public Object getPipe() {
@@ -26,10 +24,10 @@ public class Plumber {
 	
 }
 
-// Файл ChiefAdapter.java
-
+// Файл ChiefAdapter.java - адаптер
 public class ChiefAdapter implements Chief {
-
+/*создаем экземпляр класса Plumber
+* переопределяем методы интерфейса Chief, вкладывая в них методы класса Plumber */
 	private Plumber plumber = new Plumber();
 
 	@Override
@@ -50,7 +48,6 @@ public class ChiefAdapter implements Chief {
 }
 
 // Файл Client.java
-
 public class Client {
 
 	public static void main(String [] args) {
