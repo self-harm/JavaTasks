@@ -1,6 +1,3 @@
-package com.javarush.task.task20.task2028;
-
-
 import java.io.Serializable;
 import java.util.*;
 
