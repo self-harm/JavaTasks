@@ -16,4 +16,5 @@
 Существует 2 варианта реализации: наследование и композиция.
 
 ![alt-text](https://github.com/self-harm/java-practice/blob/main/Patterns/Adapter/pics/Adapter_pattern.svg.png)
+<br><br>
 ![alt-text](https://github.com/self-harm/java-practice/blob/main/Patterns/Adapter/pics/adapter.PNG)
