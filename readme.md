@@ -7,6 +7,6 @@
 <br>
 [03](https://github.com/self-harm/java-practice/blob/main/Algorithms/NumberOfLetters.java) Посчитать количество букв в веденном тексте.
 <br>
-[04*](https://github.com/self-harm/java-practice/blob/main/Algorithms/NarcissisticNumber.java) <b><i>Поиск нарциссического числа.</b></i>
+<b><i>[04*](https://github.com/self-harm/java-practice/blob/main/Algorithms/NarcissisticNumber.java) Поиск нарциссического числа.</b></i>
 <br>
 [05](https://github.com/self-harm/java-practice/blob/main/Algorithms/MediumNumber.java) Отсортировать массив по удаленности от его медианы.
