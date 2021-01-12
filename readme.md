@@ -14,3 +14,4 @@
 <b><i>[06*](https://github.com/self-harm/java-practice/tree/main/Algorithms) Проверка на равное количество открывающихся/закрывающихся скобок.</b></i>
 
 <H1>Разное</H1>
+[01](https://github.com/self-harm/java-practice/blob/main/Different/IP.java) Вычислить адрес сети по IP.
