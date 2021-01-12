@@ -1,3 +1,13 @@
+/*Создать словарь (Map<String, String>) занести в него десять записей по принципу "фамилия" - "имя".
+Удалить людей, имеющих одинаковые имена.
+
+Требования:
+Программа не должна выводить текст на экран.
+Программа не должна считывать значения с клавиатуры.
+Метод createMap() должен создавать и возвращать словарь Map с типом элементов String, String состоящих из 10 записей.
+Метод removeTheFirstNameDuplicates() должен удалять из словаря всех людей, имеющие одинаковые имена.
+Метод removeTheFirstNameDuplicates() должен вызывать метод removeItemFromMapByValue().*/
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -5,7 +15,7 @@ import java.util.Map;
 Нам повторы не нужны
 */
 
-public class Solution {
+public class DeleteDuplicates {
     public static Map<String, String> createMap() {
         Map<String, String> map = new HashMap<>();
         for(int i=0;i<10;i++){
