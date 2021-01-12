@@ -38,7 +38,7 @@ import java.util.*;
 Задача по алгоритмам
 */
 
-public class Main{
+public class StringsAndNumbers{
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<String> list = new ArrayList<>();
