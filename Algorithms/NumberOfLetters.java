@@ -1,3 +1,20 @@
+/*Введи с клавиатуры 10 строчек и посчитай в них количество различных букв без учета регистра. Результат выведи на экран в алфавитном порядке.
+
+Пример вывода:
+а 5
+б 8
+в 3
+г 7
+д 0
+...
+я 9
+
+Требования:
+Программа должна 10 раз считывать данные с клавиатуры.
+Программа должна выводить текст на экран.
+Выведенный текст должен содержать 33 строки.
+Каждая строка вывода должна содержать букву русского алфавита, пробел и количество раз, которое буква встречалась в введенных строках.*/
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
@@ -6,7 +23,7 @@ import java.util.*;
 Количество букв
 */
 
-public class Solution {
+public class NumberOfLetters {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
