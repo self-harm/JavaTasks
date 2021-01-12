@@ -11,4 +11,4 @@
 <br>
 [05](https://github.com/self-harm/java-practice/blob/main/Algorithms/MediumNumber.java) Отсортировать массив по удаленности от его медианы.
 <br>
-[06](https://github.com/self-harm/java-practice/tree/main/Algorithms) Проверка на равное количество открывающихся/закрывающихся скобок.
+<b><i>[06*](https://github.com/self-harm/java-practice/tree/main/Algorithms) Проверка на равное количество открывающихся/закрывающихся скобок.</b></i>
