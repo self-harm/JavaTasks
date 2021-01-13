@@ -1,6 +1,6 @@
 import java.io.FileNotFoundException;
 
-public class Main {
+public class Exercise2 {
 
     public static void main(String[] args) throws FileNotFoundException {
 	    VectorGraphicsInterface g1 = new VectorAdapterFromRaster();// Inheritance
