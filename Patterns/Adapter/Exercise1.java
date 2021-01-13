@@ -1,8 +1,23 @@
+/*Требования:
+
+Класс TableAdapter должен адаптировать ATable к BTable.
+Метод getHeaderText должен возвращать такую строку "[username] : tablename".
+
+Пример, "[Amigo] : DashboardTable"
+
+•	Класс Solution должен содержать public static интерфейс ATable.
+•	Класс Solution должен содержать public static интерфейс BTable.
+•	Класс Solution должен содержать public static класс TableAdapter.
+•	Класс TableAdapter должен реализовывать интерфейс BTable.
+•	Класс TableAdapter должен содержать приватное поле aTable типа ATable.
+•	Класс TableAdapter должен содержать конструктор с параметром ATable.
+•	Класс TableAdapter должен переопределять метод getHeaderText согласно заданию.*/
+
 /*
 TableAdapter
 */
 
-public class Main {
+public class Exercise1 {
     public static void main(String[] args) {
         //это пример вывода
         ATable aTable = new ATable() {
@@ -44,18 +59,3 @@ public class Main {
         String getHeaderText();
     }
 }
-
-/*Требования:
-
-Класс TableAdapter должен адаптировать ATable к BTable.
-Метод getHeaderText должен возвращать такую строку "[username] : tablename".
-
-Пример, "[Amigo] : DashboardTable"
-
-•	Класс Solution должен содержать public static интерфейс ATable.
-•	Класс Solution должен содержать public static интерфейс BTable.
-•	Класс Solution должен содержать public static класс TableAdapter.
-•	Класс TableAdapter должен реализовывать интерфейс BTable.
-•	Класс TableAdapter должен содержать приватное поле aTable типа ATable.
-•	Класс TableAdapter должен содержать конструктор с параметром ATable.
-•	Класс TableAdapter должен переопределять метод getHeaderText согласно заданию.*/
