@@ -1,7 +1,26 @@
-import java.util.HashMap;
-import java.util.Map;
+/*Адаптировать Customer и Contact к RowItem.
+Классом-адаптером является DataAdapter.
 
-public class Main {
+Инициализируйте countries перед началом выполнения программы. Соответствие кода страны и названия:
+UA Ukraine
+RU Russia
+CA Canada
+
+Требования:
+•	Класс Solution должен содержать public static поле countries типа Map<String, String>.
+•	В статическом блоке класса Solution инициализируй поле countries тестовыми данными согласно заданию.
+•	Класс Solution должен содержать интерфейс RowItem.
+•	Класс Solution должен содержать интерфейс Contact.
+•	Класс Solution должен содержать интерфейс Customer.
+•	Класс DataAdapter должен реализовывать интерфейс RowItem.
+•	Класс DataAdapter должен содержать два приватных поля: customer типа Customer и contact Contact.
+•	Класс DataAdapter должен содержать конструктор с параметрами (Customer customer, Contact contact), который инициализирует поля contact и customer.
+•	В классе DataAdapter реализуй методы интерфейса RowItem используя подсказки в виде комментариев в интерфейсах.
+
+import java.util.HashMap;
+import java.util.Map;*/
+
+public class Exercise4 {
     public static Map<String, String> countries = new HashMap<String, String>();
 
     static{
