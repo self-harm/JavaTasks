@@ -1,3 +1,22 @@
+  
+/* Адаптируй IncomeData к Customer и Contact.
+Классом-адаптером является IncomeDataAdapter.
+Инициализируйте countries перед началом выполнения программы. Соответствие кода страны и названия:
+UA Ukraine
+RU Russia
+CA Canada
+Дополнить телефонный номер нулями до 10 цифр при необходимости (смотри примеры).
+Обратите внимание на формат вывода фамилии и имени человека.
+
+Требования:
+•	Класс Solution должен содержать public static поле countries типа Map<String, String>.
+•	В статическом блоке класса Solution инициализируй поле countries тестовыми данными согласно заданию.
+•	Класс IncomeDataAdapter должен реализовывать интерфейсы Customer и Contact.
+•	Класс IncomeDataAdapter должен содержать приватное поле data типа IncomeData.
+•	Класс IncomeDataAdapter должен содержать конструктор с параметром IncomeData.
+•	В классе IncomeDataAdapter реализуй методы интерфейсов Customer и Contact используя подсказки в виде комментариев в интерфейсах.
+*/
+
 /* 
 Адаптация нескольких интерфейсов
 */
@@ -5,7 +24,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class Exercise3 {
     public static Map<String, String> countries = new HashMap<String, String>();
 
     static{
