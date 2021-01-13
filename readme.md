@@ -18,3 +18,5 @@
 [01](https://github.com/self-harm/java-practice/blob/main/Different/IP.java) Вычислить адрес сети по IP.
 <br>
 [02](https://github.com/self-harm/java-practice/blob/main/Different/DifferentTypes.java) Определить тип данных(String/Short/Double/Integer).
+<br>
+[03](https://github.com/self-harm/java-practice/blob/main/Different/Factorial.java) Вычисление факториала
