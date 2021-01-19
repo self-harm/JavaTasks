@@ -18,7 +18,7 @@ Builder
 <h3>2.  Поведенческие/Behavioral</h3>
 Observer
 
-<h3>3. структурные (structural)</h3>
+<h3>3. Структурные/Structural</h3>
 Decorator
 <br>
 Adapter
