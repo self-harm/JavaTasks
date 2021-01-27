@@ -1,5 +1,4 @@
-<H1>HackerRank</H1>
-1. Comparator
+
 
 <H1>Задачи по алгоритмам</H1>
 
