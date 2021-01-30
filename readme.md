@@ -26,7 +26,7 @@
 <H1>HackerRank</H1>
 
 
-[01](https://github.com/self-harm/java-practices/blob/main/HackerRank/Comparator.java) Comparator.
+[01](https://github.com/self-harm/java-practice/blob/main/HackerRank/Comparator.java) Comparator.
 <br>
 [02](https://github.com/self-harm/java=practice/blob/main/HackerRank/Comparator2.java) Comparator 2.
 
