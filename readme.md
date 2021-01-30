@@ -28,5 +28,5 @@
 
 [01](https://github.com/self-harm/java-practice/blob/main/HackerRank/Comparator.java) Comparator.
 <br>
-[02](https://github.com/self-harm/java=practice/blob/main/HackerRank/Comparator2.java) Comparator 2.
+[02](https://github.com/self-harm/java-practice/blob/main/HackerRank/Comparator2.java) Comparator 2.
 
