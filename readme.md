@@ -34,7 +34,7 @@
 
 [01](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/RandomAccessFile.java) RandomAccessFile.
 <br>
-[02](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/RandomAccessFile2.java) RandomAccessFile2.
+[02](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/RandomAccessFile2.java) RandomAccessFile 2.
 <br>
 [03](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/stringWriter.java) StringWriter.
 <br>
