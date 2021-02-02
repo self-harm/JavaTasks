@@ -37,3 +37,5 @@
 [02](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/RandomAccessFile2.java) RandomAccessFile2.
 <br>
 [03](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/stringWriter.java) StringWriter.
+<br>
+[04](https://github.com/self-harm/JavaTasks/blob/main/FileInputStream-FileOutputStream/codeCaesar.java) Caesar code.
