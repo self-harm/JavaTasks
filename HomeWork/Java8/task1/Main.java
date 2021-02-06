@@ -96,7 +96,6 @@ public class Main {
             try {
                 name = reader.readLine();
                 age = Integer.parseInt(reader.readLine());
-
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("Ooops, there's an exception in Supplier<T> functional interface.");
