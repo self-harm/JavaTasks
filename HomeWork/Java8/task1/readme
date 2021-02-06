@@ -1,5 +1,7 @@
-Task 1 (5 points):
+<h2>Task 1 (5 points):</h2>
+
 Create several instances of Runnable interface with different implementation using lambda expressions. Use them with threads.
+
 Create:
 1. a Person class with name and age fields;
 2. an array of Persons;
